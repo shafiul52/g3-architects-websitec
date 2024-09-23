@@ -8,3 +8,28 @@
   font-weight: <weight>;
   font-style: normal;
 }
+
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+
+
+/* header styles  */
+
+
+/* navbar  styles  */
+
+.navbar{
+   
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+ text-decoration: none;
+ font-weight: 500;
+}
