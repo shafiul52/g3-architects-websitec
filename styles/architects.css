@@ -15,14 +15,31 @@
     display: flex;
 }
 
+/* dark 02  */
+.text-gray{
+color: rgb(66, 66, 66);
+}
 
+.text-light-gray{
+    color:  rgb(66, 66, 66);
+    
+}
+.bg-light{
+    background-color:#FFF4E6
+}
 /* header styles  */
 
 
 /* navbar  styles  */
 
 .navbar{
-   
+    justify-content: space-between;
+    align-items: center;
+}
+.brand-name{
+    font-weight: 700;
+    font-size: 3rem;
+  
 }
 
 .nav-item{
@@ -32,4 +49,8 @@
 .nav-link{
  text-decoration: none;
  font-weight: 500;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
 }
